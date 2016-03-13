@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>lol</title>
+
+	<meta charset="utf-8">
+	<meta name="description" content="Envision City is a...">
+	<meta name="keywords" content="envision,city">
+	<meta name="author" content="Harry Dong">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <style>
+        html,body{
+            width:100%;
+            height:100%;
+        }
+        body{
+            background: url(http://orientalbalance.com/wp-content/uploads/2014/08/doctor.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" style="margin-top:130px;text-align:center">
+<h1 style="color:skyblue;font-size:100px">Choose your symptom</h1>
+<br><br><br>
+<br>
+        <button class="btn btn-default btn-lg" onclick="clicked(1)">Headache</button>
+        <button class="btn btn-default btn-lg" onclick="clicked(1)">Stomachache</button>
+        <button id="vac" class="btn btn-default btn-lg" onclick="clicked(0)">Vaccine</button>
+
+    </div>
+
+    <script>
+        x=0;
+        function clicked(y){
+            if (y==0){
+                window.alert('you have autism!');
+            }
+            else if (x==0){
+                window.alert("you have melanoma!");
+            }
+            else if (x==1){
+                window.alert("you have leukemia!");
+            }
+            else if (x==2){
+                window.alert("you have bronchitis!");
+            }
+            else if (x==3){
+                window.alert("you have myocarcinoma!");
+
+            }
+            else{
+                window.alert("you have ebola!");
+                x=-1;
+            }
+
+            x++;
+
+        }
+    </script>
+
+
+</body>
